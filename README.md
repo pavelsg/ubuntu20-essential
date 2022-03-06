@@ -2,12 +2,20 @@
 
 ## Introduction
 
-This repo is created to minimize packages installed on Ubuntu 20.04. This repo defines packages which are critical to provide just following functions:
+This repo is created to minimize packages installed on Ubuntu 20.04. This will cut your Ubuntu down to 217 packages out of 595 installed by default, reduce binaries size down by ~700Mb, and double the boot speed.
+This repo defines packages which are critical to provide just following functions:
 1. Boot properly
 2. Run OpenSSH server
 3. Working package manager (diff, dpkg
 4. Working filesystem (fdisk, LVM, ext4, xfs)
 5. Basic text processing (sed, gawk, grep, vim-tiny)
+
+## Motivation
+1. Reduce OS image size (which might be critical for saturated links)
+2. Increase boot speed
+3. Reduce attack surface
+4. Reduce maintenance effort on OS packages/libraries updates
+5. Reduce chance of compatibility issues
 
 ## How to use
 
