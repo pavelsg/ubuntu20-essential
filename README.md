@@ -10,6 +10,8 @@ This repo defines packages which are critical to provide just following function
 4. Working filesystem (fdisk, LVM, ext4, xfs)
 5. Basic text processing (sed, gawk, grep, vim-tiny)
 
+Apart from the above, all other functionality will require installing additional packages using apt.
+
 ## Motivation
 1. Reduce OS image size (which might be critical for saturated links)
 2. Increase boot speed
