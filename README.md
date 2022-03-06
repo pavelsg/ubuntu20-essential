@@ -1,0 +1,22 @@
+# Ubuntu Server 20.04 essentials
+
+## Introduction
+
+This repo is created to minimize packages installed on Ubuntu 20.04. This repo defines packages which are critical to provide just following functions:
+1. Boot properly
+2. Run OpenSSH server
+3. Working package manager (diff, dpkg
+4. Working filesystem (fdisk, LVM, ext4, xfs)
+5. Basic text processing (sed, gawk, grep, vim-tiny)
+
+## How to use
+
+1. Install Ubuntu 20.04 with just SSH Server pre-installed
+2. Login via ssh
+3. Sudo to root
+4. Download https://raw.githubusercontent.com/pavelsg/ubuntu20-minimal/main/ubuntu-20.04-server-essentials
+5. Run ```apt list --installed | sed 's/\/.*//' | sort > installed_packages```
+6. Run ```comm ubuntu-20.04-server-essentials installed_packages -13 > packages_to_remove```
+7. **Review and update packages_to_remove according to your needs**
+8. Run **at your own risk** ```apt-get purge $(packages_to_remove)```
+9. Done! Now you have no any other packages except for the ones essential to boot into barely usefull Ubuntu 20.04 distribution
