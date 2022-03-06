@@ -30,3 +30,18 @@ Apart from the above, all other functionality will require installing additional
 7. **Review and update packages_to_remove according to your needs**
 8. Run **at your own risk** ```apt-get purge $(packages_to_remove)```
 9. Done! Now you have no any other packages except for the ones essential to boot into barely usefull Ubuntu 20.04 distribution
+
+## Warranty
+
+This repo comes at no warranties at all. Use at your own risk. Not recommended to run on live systems (recommended only for new systems).
+
+## Testing
+
+Tested on VirtualBox VM
+
+## TO DO:
+
+1. Test on bare metal
+2. Test on other hypervisors (VMware, Hyper-V, XEN)
+4. Test on could providers (AWS, Azure, GCP)
+
