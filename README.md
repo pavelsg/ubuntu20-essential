@@ -6,7 +6,7 @@ This repo is created to minimize packages installed on Ubuntu 20.04. This will c
 This repo defines packages which are critical to provide just following functions:
 1. Boot properly
 2. Run OpenSSH server
-3. Working package manager (diff, dpkg
+3. Working package manager (apt, dpkg)
 4. Working filesystem (fdisk, LVM, ext4, xfs)
 5. Basic text processing (sed, gawk, grep, vim-tiny)
 
