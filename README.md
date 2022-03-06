@@ -33,7 +33,7 @@ Apart from the above, all other functionality will require installing additional
 
 ## Warranty
 
-This repo comes at no warranties at all. Use at your own risk. Not recommended to run on live systems (recommended only for new systems).
+This repo comes with no warranties at all. Use at your own risk. Not recommended to run on live systems (recommended only for new systems).
 
 ## Testing
 
