@@ -28,7 +28,7 @@ Apart from the above, all other functionality will require installing additional
 5. Run ```apt list --installed | sed 's/\/.*//' | sort > installed_packages```
 6. Run ```comm ubuntu-20.04-server-essentials installed_packages -13 > packages_to_remove```
 7. **Review and update packages_to_remove according to your needs**
-8. Run **at your own risk** ```apt-get purge $(packages_to_remove)```
+8. Run **at your own risk** ```apt-get purge $(cat packages_to_remove)```
 9. Done! Now you have no any other packages except for the ones essential to boot into barely usefull Ubuntu 20.04 distribution
 
 ## Warranty
