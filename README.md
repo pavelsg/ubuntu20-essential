@@ -44,4 +44,4 @@ Tested on VirtualBox VM
 1. Test on bare metal
 2. Test on other hypervisors (VMware, Hyper-V, XEN)
 4. Test on could providers (AWS, Azure, GCP)
-
+5. ```sudo sed -i -e 's|UNAVAILABLE|focal|g' /etc/apt/sources.list```
